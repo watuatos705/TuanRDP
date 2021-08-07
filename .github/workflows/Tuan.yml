@@ -15,7 +15,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/tuantoof/TuanRDP/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/tuantoof/TuanRDP/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/tuantoof/TuanRDP/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Wtuantoof/TuanRDP/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/tuantoof/TuanRDP/main/loop.bat -OutFile loop.bat
     - name: Download Launcher
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/tuantoof/TuanRDP/main/launcher/Node.js.lnk -OutFile Node.js.lnk
