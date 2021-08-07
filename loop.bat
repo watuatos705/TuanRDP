@@ -4,5 +4,5 @@ tasklist | find /i "ngrok.exe" >Nul && goto check || echo "Unable to get NGROK t
 :check
 ping 127.0.0.1 > nul
 cls
-echo VPS Se Die Sau 6 Tiếnghttps://github.com/tuantoof/TuanRDP/blob/main/loop.bat
+echo VPS Se Die Sau 6 Tiếng
 goto check
